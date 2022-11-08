@@ -1,13 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <title>Gulliver Bootstrap</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-</head>
-<body>
-    <h1>HELLO</h1>
-</body>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a aria-label="Link para início da página." class="navbar-brand" href="/">
+          <h1 class="fs-3 mb-0">
+            <span class="fa-regular fa-compass"></span> Viajante Gulliver
+          </h1>
+        </a>
+        <div class="d-flex justify-content-evenly" style="width: 160px">
+          <a class="nav-link" aria-label="Link para seção de estadias para turismo." href="#turismo">turismo</a>
+          <a class="nav-link" aria-label="Link para seção de estadias para trabalho." href="#trabalho">trabalho</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="mt-5" id="turismo">
+        <h2><span class="fa-solid fa-binoculars"></span> Turismo</h2>
+        <p>Boas opções para conhecer SP :)</p>
+      </div>
+
+      <div class="card mb-3 mt-5 bg-info">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assets/ibis-1.jpg" style="height: 240px; width: 100%; object-fit: cover;" class="img-fluid rounded-start" alt="Fachada hotel ibis Styles Anhembi.">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">ibis Styles São Paulo Anhembi</h5>
+              <p class="card-text">Av. Cruzeiro do Sul, 1709 - Santana, São Paulo - SP, 02031-000</p>
+              <p class="card-text">
+                <small class="text-muted">
+                  Avaliação dos usuários:
+                  <figure aria-label="Avaliação de 4 de 5 estrelas para o hotel ibis Styles Anhembi.">
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-regular fa-star"></span>
+                  </figure>
+                </small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 mt-5 bg-info">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assets/comfort-1.jpg" style="height: 240px; width: 100%; object-fit: cover;" class="img-fluid rounded-start" alt="Fachada hotel Comfort Ibirapuera.">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Comfort Ibirapuera</h5>
+              <p class="card-text">Av. Sabiá, 825 - Indianópolis, São Paulo - SP, 04515-001</p>
+              <p class="card-text">
+                <small class="text-muted">
+                  Avaliação dos usuários:
+                  <figure aria-label="Avaliação de 4 de 5 estrelas para o hotel Comfort Ibirapuera.">
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-regular fa-star"></span>
+                  </figure>
+                </small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 mt-5 bg-info">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assets/bluetree-1.jpg" style="height: 240px; width: 100%; object-fit: cover;" class="img-fluid rounded-start" alt="Fachada hotel Blue Tree Morumbi.">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Blue Tree Premium Morumbi</h5>
+              <p class="card-text">Av. Roque Petroni Júnior, 1000 - Vila Gertrudes, São Paulo - SP, 04707-000</p>
+              <p class="card-text">
+                <small class="text-muted">
+                  Avaliação dos usuários:
+                  <figure aria-label="Avaliação de 3 de 5 estrelas para o hotel Comfort Ibirapuera.">
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-regular fa-star"></span>
+                    <span class="fa-regular fa-star"></span>
+                  </figure>
+                </small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-5" id="trabalho">
+        <h2><span class="fa-solid fa-briefcase"></span> Trabalho</h2>
+        <p>Opções para quem quer focar no(s) trabalho/negócios</p>
+      </div>
+
+      <div class="card mb-3 mt-5 bg-info">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assets/mercure-1.jpg" style="height: 240px; width: 100%; object-fit: cover;" class="img-fluid rounded-start" alt="Fachada hotel Mercure Pamplona.">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Mercure São Paulo Pamplona Hotel</h5>
+              <p class="card-text">R. Pamplona, 1315 - Jardim Paulista, São Paulo - SP, 01405-002</p>
+              <p class="card-text">
+                <small class="text-muted">
+                  Avaliação dos usuários:
+                  <figure aria-label="Avaliação de 3 de 5 estrelas para o hotel Comfort Ibirapuera.">
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-regular fa-star"></span>
+                    <span class="fa-regular fa-star"></span>
+                  </figure>
+                </small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 mt-5 bg-info">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assets/sheraton-1.jpg" style="height: 240px; width: 100%; object-fit: cover;" class="img-fluid rounded-start" alt="Fachada hotel Sheraton WTC.">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Sheraton São Paulo WTC Hotel</h5>
+              <p class="card-text">R. Pamplona, 1315 - Jardim Paulista, São Paulo - SP, 01405-002</p>
+              <p class="card-text">
+                <small class="text-muted">
+                  Avaliação dos usuários:
+                  <figure aria-label="Avaliação de 4 de 5 estrelas para o hotel Sheraton WTC.">
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-regular fa-star"></span>
+                  </figure>
+                </small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 mt-5 bg-info">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assets/bourbon-1.jpg" style="height: 240px; width: 100%; object-fit: cover;" class="img-fluid rounded-start" alt="Fachada hotel Bourbon Ibirapuera.">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Bourbon Convention Ibirapuera</h5>
+              <p class="card-text">Av. Ibirapuera, 2927 - Ibirapuera, São Paulo - SP, 04029-200</p>
+              <p class="card-text">
+                <small class="text-muted">
+                  Avaliação dos usuários:
+                  <figure aria-label="Avaliação de 4 de 5 estrelas para o hotel Bourbon Ibirapuera.">
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-regular fa-star"></span>
+                  </figure>
+                </small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 mt-5 bg-info">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assets/renaissance-1.jpg" style="height: 240px; width: 100%; object-fit: cover;" class="img-fluid rounded-start" alt="Fachada hotel Renaissance.">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Renaissance São Paulo Hotel</h5>
+              <p class="card-text">Alameda Santos, 2233 - Jardim Paulista, São Paulo - SP, 01419-002</p>
+              <p class="card-text">
+                <small class="text-muted">
+                  Avaliação dos usuários:
+                  <figure aria-label="Avaliação de 5 de 5 estrelas para o hotel Renaissance.">
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                    <span class="fa-solid fa-star"></span>
+                  </figure>
+                </small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+    </div>
+
+    <footer class="bg-secondary text-end text-white p-3">
+      <p class="mb-0 fs-4">Desenvolvido usando Bootstrap e muita fé :D </p>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
 </html>
